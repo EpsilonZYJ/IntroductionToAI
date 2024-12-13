@@ -1,1 +1,1 @@
-# IntorductionToAI
+# Introduction to AI
