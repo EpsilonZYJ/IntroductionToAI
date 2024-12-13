@@ -1,0 +1,13 @@
+prefix=/Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda
+exec_prefix=/Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda
+libdir=/Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda/lib
+sharedlibdir=/Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda/lib
+includedir=/Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

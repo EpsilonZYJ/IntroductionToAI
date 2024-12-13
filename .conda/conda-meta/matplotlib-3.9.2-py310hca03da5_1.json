@@ -1,0 +1,33 @@
+{
+  "build": "py310hca03da5_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "tornado >=5",
+    "matplotlib-base >=3.9.2,<3.9.3.0a0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/matplotlib-3.9.2-py310hca03da5_1",
+  "files": [],
+  "fn": "matplotlib-3.9.2-py310hca03da5_1.conda",
+  "license": "LicenseRef-PSF-based",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/matplotlib-3.9.2-py310hca03da5_1",
+    "type": 1
+  },
+  "md5": "0325413d6769acdfd735a625627379f0",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/matplotlib-3.9.2-py310hca03da5_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "eab3a9fbfc081e363262bb7b3b18a023a07c3cc52b5c74843aee4ed496060b56",
+  "size": 8174,
+  "subdir": "osx-arm64",
+  "timestamp": 1732550538000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/matplotlib-3.9.2-py310hca03da5_1.conda",
+  "version": "3.9.2"
+}

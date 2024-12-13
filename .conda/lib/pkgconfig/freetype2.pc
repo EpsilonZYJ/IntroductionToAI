@@ -1,0 +1,14 @@
+prefix=/Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda
+exec_prefix=/Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda
+libdir=/Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda/lib
+includedir=/Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda/lib -lfreetype
+Libs.private: -lz -L/Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
