@@ -77,3 +77,101 @@
 +defaults/osx-arm64::pandas-2.2.3-py310hcf29cfe_0
 +defaults/osx-arm64::pytz-2024.1-py310hca03da5_0
 # update specs: ['pandas']
+==> 2024-12-14 21:22:43 <==
+# cmd: /opt/anaconda3/bin/conda install tqdm
+# conda version: 24.9.2
++defaults/osx-arm64::tqdm-4.66.5-py310h33ce5c2_0
+# update specs: ['tqdm']
+==> 2024-12-14 21:23:13 <==
+# cmd: /opt/anaconda3/condabin/conda install -p /Users/zhouyujie/Developer/HustWorkfield/IntroductionToAI/.conda "notebook" -y
+# conda version: 24.9.2
++defaults/noarch::argon2-cffi-21.3.0-pyhd3eb1b0_0
++defaults/noarch::asttokens-2.0.5-pyhd3eb1b0_0
++defaults/noarch::charset-normalizer-3.3.2-pyhd3eb1b0_0
++defaults/noarch::decorator-5.1.1-pyhd3eb1b0_0
++defaults/noarch::defusedxml-0.7.1-pyhd3eb1b0_0
++defaults/noarch::executing-0.8.3-pyhd3eb1b0_0
++defaults/noarch::jupyterlab_pygments-0.1.2-py_0
++defaults/noarch::pandocfilters-1.5.0-pyhd3eb1b0_0
++defaults/noarch::pexpect-4.8.0-pyhd3eb1b0_3
++defaults/noarch::prompt_toolkit-3.0.43-hd3eb1b0_0
++defaults/noarch::ptyprocess-0.7.0-pyhd3eb1b0_2
++defaults/noarch::pure_eval-0.2.2-pyhd3eb1b0_0
++defaults/noarch::pycparser-2.21-pyhd3eb1b0_0
++defaults/noarch::stack_data-0.2.0-pyhd3eb1b0_0
++defaults/noarch::wcwidth-0.2.5-pyhd3eb1b0_0
++defaults/osx-arm64::anyio-4.6.2-py310hca03da5_0
++defaults/osx-arm64::appnope-0.1.2-py310hca03da5_1001
++defaults/osx-arm64::argon2-cffi-bindings-21.2.0-py310h1a28f6b_0
++defaults/osx-arm64::async-lru-2.0.4-py310hca03da5_0
++defaults/osx-arm64::attrs-24.2.0-py310hca03da5_0
++defaults/osx-arm64::babel-2.11.0-py310hca03da5_0
++defaults/osx-arm64::beautifulsoup4-4.12.3-py310hca03da5_0
++defaults/osx-arm64::bleach-6.2.0-py310hca03da5_0
++defaults/osx-arm64::brotli-python-1.0.9-py310h313beb8_8
++defaults/osx-arm64::certifi-2024.8.30-py310hca03da5_0
++defaults/osx-arm64::cffi-1.17.1-py310h3eb5a62_0
++defaults/osx-arm64::comm-0.2.1-py310hca03da5_0
++defaults/osx-arm64::debugpy-1.6.7-py310h313beb8_0
++defaults/osx-arm64::exceptiongroup-1.2.0-py310hca03da5_0
++defaults/osx-arm64::h11-0.14.0-py310hca03da5_0
++defaults/osx-arm64::httpcore-1.0.2-py310hca03da5_0
++defaults/osx-arm64::httpx-0.27.0-py310hca03da5_0
++defaults/osx-arm64::idna-3.7-py310hca03da5_0
++defaults/osx-arm64::ipykernel-6.29.5-py310hca03da5_0
++defaults/osx-arm64::ipython-8.27.0-py310hca03da5_0
++defaults/osx-arm64::jedi-0.19.2-py310hca03da5_0
++defaults/osx-arm64::jinja2-3.1.4-py310hca03da5_1
++defaults/osx-arm64::json5-0.9.25-py310hca03da5_0
++defaults/osx-arm64::jsonschema-4.23.0-py310hca03da5_0
++defaults/osx-arm64::jsonschema-specifications-2023.7.1-py310hca03da5_0
++defaults/osx-arm64::jupyter-lsp-2.2.0-py310hca03da5_0
++defaults/osx-arm64::jupyter_client-8.6.0-py310hca03da5_0
++defaults/osx-arm64::jupyter_core-5.7.2-py310hca03da5_0
++defaults/osx-arm64::jupyter_events-0.10.0-py310hca03da5_0
++defaults/osx-arm64::jupyter_server-2.14.1-py310hca03da5_0
++defaults/osx-arm64::jupyter_server_terminals-0.4.4-py310hca03da5_1
++defaults/osx-arm64::jupyterlab-4.2.5-py310hca03da5_0
++defaults/osx-arm64::jupyterlab_server-2.27.3-py310hca03da5_0
++defaults/osx-arm64::libsodium-1.0.18-h1a28f6b_0
++defaults/osx-arm64::markupsafe-2.1.3-py310h80987f9_0
++defaults/osx-arm64::matplotlib-inline-0.1.6-py310hca03da5_0
++defaults/osx-arm64::mistune-2.0.4-py310hca03da5_0
++defaults/osx-arm64::nbclient-0.8.0-py310hca03da5_0
++defaults/osx-arm64::nbconvert-7.16.4-py310hca03da5_0
++defaults/osx-arm64::nbformat-5.10.4-py310hca03da5_0
++defaults/osx-arm64::nest-asyncio-1.6.0-py310hca03da5_0
++defaults/osx-arm64::notebook-7.2.2-py310hca03da5_1
++defaults/osx-arm64::notebook-shim-0.2.3-py310hca03da5_0
++defaults/osx-arm64::overrides-7.4.0-py310hca03da5_0
++defaults/osx-arm64::parso-0.8.4-py310hca03da5_0
++defaults/osx-arm64::platformdirs-3.10.0-py310hca03da5_0
++defaults/osx-arm64::prometheus_client-0.21.0-py310hca03da5_0
++defaults/osx-arm64::prompt-toolkit-3.0.43-py310hca03da5_0
++defaults/osx-arm64::psutil-5.9.0-py310h1a28f6b_0
++defaults/osx-arm64::pygments-2.15.1-py310hca03da5_1
++defaults/osx-arm64::pysocks-1.7.1-py310hca03da5_0
++defaults/osx-arm64::python-fastjsonschema-2.20.0-py310hca03da5_0
++defaults/osx-arm64::python-json-logger-2.0.7-py310hca03da5_0
++defaults/osx-arm64::pyyaml-6.0.2-py310h80987f9_0
++defaults/osx-arm64::pyzmq-25.1.2-py310h313beb8_0
++defaults/osx-arm64::referencing-0.30.2-py310hca03da5_0
++defaults/osx-arm64::requests-2.32.3-py310hca03da5_1
++defaults/osx-arm64::rfc3339-validator-0.1.4-py310hca03da5_0
++defaults/osx-arm64::rfc3986-validator-0.1.1-py310hca03da5_0
++defaults/osx-arm64::rpds-py-0.10.6-py310h2aea54e_1
++defaults/osx-arm64::send2trash-1.8.2-py310hca03da5_0
++defaults/osx-arm64::sniffio-1.3.0-py310hca03da5_0
++defaults/osx-arm64::soupsieve-2.5-py310hca03da5_0
++defaults/osx-arm64::terminado-0.17.1-py310hca03da5_0
++defaults/osx-arm64::tinycss2-1.2.1-py310hca03da5_0
++defaults/osx-arm64::tomli-2.0.1-py310hca03da5_0
++defaults/osx-arm64::traitlets-5.14.3-py310hca03da5_0
++defaults/osx-arm64::typing-extensions-4.11.0-py310hca03da5_0
++defaults/osx-arm64::typing_extensions-4.11.0-py310hca03da5_0
++defaults/osx-arm64::urllib3-2.2.3-py310hca03da5_0
++defaults/osx-arm64::webencodings-0.5.1-py310hca03da5_1
++defaults/osx-arm64::websocket-client-1.8.0-py310hca03da5_0
++defaults/osx-arm64::yaml-0.2.5-h1a28f6b_0
++defaults/osx-arm64::zeromq-4.3.5-h313beb8_0
+# update specs: ['notebook']

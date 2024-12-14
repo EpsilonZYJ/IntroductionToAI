@@ -1,0 +1,122 @@
+{
+  "build": "py310hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "typing_extensions >=4.0.0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/async-lru-2.0.4-py310hca03da5_0",
+  "files": [
+    "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/LICENSE",
+    "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/async_lru/__init__.py",
+    "lib/python3.10/site-packages/async_lru/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/async_lru/py.typed"
+  ],
+  "fn": "async-lru-2.0.4-py310hca03da5_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/async-lru-2.0.4-py310hca03da5_0",
+    "type": 1
+  },
+  "md5": "e03f4e63b3b0c752c4ff0adb0c867072",
+  "name": "async-lru",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/async-lru-2.0.4-py310hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ea65975679bc2093be925d520358e41096bd96fddedee3e929160a5faadcf573",
+        "sha256_in_prefix": "ea65975679bc2093be925d520358e41096bd96fddedee3e929160a5faadcf573",
+        "size_in_bytes": 1226
+      },
+      {
+        "_path": "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d4ef7ac4ee3890d5dc2de3ff003db65b80cb928c1a5f0d1740f2fd31161ae3e8",
+        "sha256_in_prefix": "d4ef7ac4ee3890d5dc2de3ff003db65b80cb928c1a5f0d1740f2fd31161ae3e8",
+        "size_in_bytes": 4501
+      },
+      {
+        "_path": "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9b0d1d861ee1a6dc998457582b3087843612136c62a97e61e3e540cedaa878a0",
+        "sha256_in_prefix": "9b0d1d861ee1a6dc998457582b3087843612136c62a97e61e3e540cedaa878a0",
+        "size_in_bytes": 881
+      },
+      {
+        "_path": "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "bb797069f0fe2440dc5caab2270f6bb69fdbaa5c3749c8d688ec2fa551c2db70",
+        "sha256_in_prefix": "bb797069f0fe2440dc5caab2270f6bb69fdbaa5c3749c8d688ec2fa551c2db70",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/python3.10/site-packages/async_lru-2.0.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9d4cbe176b6afe07f462c40a206a879a44bf5c9c54fdd42520db976480074ec9",
+        "sha256_in_prefix": "9d4cbe176b6afe07f462c40a206a879a44bf5c9c54fdd42520db976480074ec9",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.10/site-packages/async_lru/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01021d343d2a5f65a25140c6a1e1eca71ac9573bb43dce3347881af6b9ad8acb",
+        "sha256_in_prefix": "01021d343d2a5f65a25140c6a1e1eca71ac9573bb43dce3347881af6b9ad8acb",
+        "size_in_bytes": 9601
+      },
+      {
+        "_path": "lib/python3.10/site-packages/async_lru/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c49903bd2fc84b16773ca1a893a6fc6bb8f0d592ca43a6ee8a1cc8fa691c3cb6",
+        "sha256_in_prefix": "c49903bd2fc84b16773ca1a893a6fc6bb8f0d592ca43a6ee8a1cc8fa691c3cb6",
+        "size_in_bytes": 9461
+      },
+      {
+        "_path": "lib/python3.10/site-packages/async_lru/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3c1dc2c4173a8e258f75eb9e3f44a760235ce59bd459e345ee853bb1b144ccc9",
+  "size": 19245,
+  "subdir": "osx-arm64",
+  "timestamp": 1699554606000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/async-lru-2.0.4-py310hca03da5_0.conda",
+  "version": "2.0.4"
+}

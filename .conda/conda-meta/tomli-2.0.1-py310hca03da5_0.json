@@ -1,0 +1,161 @@
+{
+  "build": "py310hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/tomli-2.0.1-py310hca03da5_0",
+  "files": [
+    "lib/python3.10/site-packages/tomli-2.0.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/tomli-2.0.1.dist-info/LICENSE",
+    "lib/python3.10/site-packages/tomli-2.0.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/tomli-2.0.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/tomli-2.0.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/tomli-2.0.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/tomli-2.0.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/tomli/__init__.py",
+    "lib/python3.10/site-packages/tomli/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tomli/__pycache__/_parser.cpython-310.pyc",
+    "lib/python3.10/site-packages/tomli/__pycache__/_re.cpython-310.pyc",
+    "lib/python3.10/site-packages/tomli/__pycache__/_types.cpython-310.pyc",
+    "lib/python3.10/site-packages/tomli/_parser.py",
+    "lib/python3.10/site-packages/tomli/_re.py",
+    "lib/python3.10/site-packages/tomli/_types.py",
+    "lib/python3.10/site-packages/tomli/py.typed"
+  ],
+  "fn": "tomli-2.0.1-py310hca03da5_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/tomli-2.0.1-py310hca03da5_0",
+    "type": 1
+  },
+  "md5": "37e9afe6a28f7de7d809472e56e8ee0a",
+  "name": "tomli",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/tomli-2.0.1-py310hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/tomli-2.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli-2.0.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+        "sha256_in_prefix": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli-2.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ccf0dc78a98fc0918b5ad67292b1e2c4bed65575a6246cd9d63c914f9942a0f2",
+        "sha256_in_prefix": "ccf0dc78a98fc0918b5ad67292b1e2c4bed65575a6246cd9d63c914f9942a0f2",
+        "size_in_bytes": 8875
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli-2.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "34217e79633f81d3182eb61378d763f0b188e40f1c4c55f8fdd8660746c06c4f",
+        "sha256_in_prefix": "34217e79633f81d3182eb61378d763f0b188e40f1c4c55f8fdd8660746c06c4f",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli-2.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli-2.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5546c5e7b85fe32459596ace3a3a76e45af80505fd12d9d549b9cfdaf3711c33",
+        "sha256_in_prefix": "5546c5e7b85fe32459596ace3a3a76e45af80505fd12d9d549b9cfdaf3711c33",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli-2.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d784e8983cfe6b1e1211c3a4363b5c786fb8edffed6bf6856f92b4e2eb0f5db2",
+        "sha256_in_prefix": "d784e8983cfe6b1e1211c3a4363b5c786fb8edffed6bf6856f92b4e2eb0f5db2",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "26153057ae830758381efb7551009531d7c2bbe220015f055e6bc353da27c5de",
+        "sha256_in_prefix": "26153057ae830758381efb7551009531d7c2bbe220015f055e6bc353da27c5de",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d85f97ec98cb67f6c4b9bd9ca5d71f4968c1f4c9631019e2202021bca406ffeb",
+        "sha256_in_prefix": "d85f97ec98cb67f6c4b9bd9ca5d71f4968c1f4c9631019e2202021bca406ffeb",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli/__pycache__/_parser.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f712522bdee79dcbc4c96d7d255d101a9d968c4b51cebad9fa83cffa4e01d08",
+        "sha256_in_prefix": "8f712522bdee79dcbc4c96d7d255d101a9d968c4b51cebad9fa83cffa4e01d08",
+        "size_in_bytes": 17019
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli/__pycache__/_re.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ec2e1bfc993c1769f98b689205675365403901e84b38950e22c2942c5c7b622",
+        "sha256_in_prefix": "5ec2e1bfc993c1769f98b689205675365403901e84b38950e22c2942c5c7b622",
+        "size_in_bytes": 2851
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli/__pycache__/_types.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed3556ce4a50363a38e3b7ed293fb5b336c9616bcba9b90ba2cf28cb656e5ba2",
+        "sha256_in_prefix": "ed3556ce4a50363a38e3b7ed293fb5b336c9616bcba9b90ba2cf28cb656e5ba2",
+        "size_in_bytes": 275
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli/_parser.py",
+        "path_type": "hardlink",
+        "sha256": "83df8435a00b4be07c768918a42bb35056a55a5a20ed3f922183232d9496aed3",
+        "sha256_in_prefix": "83df8435a00b4be07c768918a42bb35056a55a5a20ed3f922183232d9496aed3",
+        "size_in_bytes": 22633
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli/_re.py",
+        "path_type": "hardlink",
+        "sha256": "75b8e0e428594f6dca6bdcfd0c73977ddb52a4fc147dd80c5e78fc34ea25cbec",
+        "sha256_in_prefix": "75b8e0e428594f6dca6bdcfd0c73977ddb52a4fc147dd80c5e78fc34ea25cbec",
+        "size_in_bytes": 2943
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli/_types.py",
+        "path_type": "hardlink",
+        "sha256": "f864c6d9552a929c7032ace654ee05ef26ca75d21b027b801d77e65907138b74",
+        "sha256_in_prefix": "f864c6d9552a929c7032ace654ee05ef26ca75d21b027b801d77e65907138b74",
+        "size_in_bytes": 254
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tomli/py.typed",
+        "path_type": "hardlink",
+        "sha256": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+        "sha256_in_prefix": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+        "size_in_bytes": 26
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c5d42f3c407306293e5b1e8c572e927de5a6de4d7a86d79872da521974fd7e43",
+  "size": 25766,
+  "subdir": "osx-arm64",
+  "timestamp": 1657175650000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/tomli-2.0.1-py310hca03da5_0.conda",
+  "version": "2.0.1"
+}
