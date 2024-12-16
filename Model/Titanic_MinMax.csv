@@ -1,0 +1,3 @@
+Pclass,Sex,Age,SibSp,Parch,Fare,Embarked
+3,1,80.0,8,6,512.3292,2
+1,0,0.42,0,0,0.0,0
