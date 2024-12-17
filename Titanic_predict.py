@@ -139,6 +139,7 @@ if __name__ == '__main__':
 
     imputer = KNNImputer(n_neighbors=5, weights="distance", copy=False)
 
+    test_DataFrame_raw = test_DataFrame.copy()
     '''
     数据预处理
     '''
@@ -173,6 +174,12 @@ if __name__ == '__main__':
 
     label_pred = SVM_model.predict(test_dataset)
 
+    SVM_prediction = pd.DataFrame({
+        "PassengerId:": test_DataFrame_raw["PassengerId"],
+        "Survived": [int(item) for item in label_pred]
+    })
+    SVM_prediction.to_csv("Answer/Titanic_SVM_submission.csv", index=False)
+
     print("-------------------------------------------------------------")
     print("SVM:")
     # 计算准确率
@@ -196,6 +203,12 @@ if __name__ == '__main__':
 
     label_pred = RF_model.predict(test_dataset)
 
+    RF_prediction = pd.DataFrame({
+        "PassengerId:": test_DataFrame_raw["PassengerId"],
+        "Survived": [int(item) for item in label_pred]
+    })
+    RF_prediction.to_csv("Answer/Titanic_RF_submission.csv", index=False)
+
     print("-------------------------------------------------------------")
     print("RandomForest:")
     # 计算准确率
@@ -218,6 +231,12 @@ if __name__ == '__main__':
     MLP_model = MachineLearningModel("Model/Titanic_MLP_model.joblib")
 
     label_pred = MLP_model.predict(test_dataset)
+
+    MLP_prediction = pd.DataFrame({
+        "PassengerId:": test_DataFrame_raw["PassengerId"],
+        "Survived": [int(item) for item in label_pred] 
+    })
+    MLP_prediction.to_csv("Answer/Titanic_MLP_submission.csv", index=False)
 
     print("-------------------------------------------------------------")
     print("MLP:")
@@ -282,6 +301,9 @@ if __name__ == '__main__':
     y_pred = [y_pred_df["Survived"][i] for i in range(len(y_pred_df))]
     y_test = [y_test_df["Survived"][i] for i in range(len(y_test_df))]
     
+    submission = pd.DataFrame({'PassengerId': df_sub['PassengerId'], 'Survived': survived})
+    submission.to_csv('Answer/Titanic_submission.csv', index=False)
+
     # 计算准确率
     accuracy = accuracy_score(y_test, y_pred)
     print(f"Accuracy: {accuracy:.2f}")
